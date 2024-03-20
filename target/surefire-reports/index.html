@@ -178,8 +178,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;User_Pet-Store_Test&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;User_Pet-Store_Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;api.test.UserTests&quot;/&gt;
     &lt;/classes&gt;
@@ -225,24 +225,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testPostUser')
 data.setCell(0, 2, 'api.test.UserTests')
-data.setCell(0, 3, 4513);
+data.setCell(0, 3, 3834);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testUpdateUserByName')
 data.setCell(1, 2, 'api.test.UserTests')
-data.setCell(1, 3, 3269);
+data.setCell(1, 3, 3373);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testDeleteUserByName')
+data.setCell(2, 1, 'testGetUserByName')
 data.setCell(2, 2, 'api.test.UserTests')
-data.setCell(2, 3, 1636);
+data.setCell(2, 3, 1658);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testGetUserByName')
+data.setCell(3, 1, 'testDeleteUserByName')
 data.setCell(3, 2, 'api.test.UserTests')
-data.setCell(3, 3, 1618);
+data.setCell(3, 3, 1638);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -275,19 +275,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testPostUser</span>
-                <span class="method-start">1580 ms</span>
+                <span class="method-start">1050 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetUserByName</span>
-                <span class="method-start">6105 ms</span>
+                <span class="method-start">4891 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testUpdateUserByName</span>
-                <span class="method-start">7727 ms</span>
+                <span class="method-start">6552 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUserByName</span>
-                <span class="method-start">10999 ms</span>
+                <span class="method-start">9926 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

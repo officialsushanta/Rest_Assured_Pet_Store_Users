@@ -176,3 +176,19 @@
 23:36:09.686 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
 23:36:09.688 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 23:36:09.699 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+15:46:54.500 [main] INFO  api.test.UserTests - *********************** Creating User ***********************
+15:46:58.998 [main] INFO  api.test.UserTests - *********************** User is Created ***********************
+15:46:59.014 [main] INFO  api.test.UserTests - *********************** Getting User Informations ***********************
+15:47:00.629 [main] INFO  api.test.UserTests - *********************** User Informations is Retreived ***********************
+15:47:00.635 [main] INFO  api.test.UserTests - *********************** Updating User ***********************
+15:47:03.901 [main] INFO  api.test.UserTests - *********************** User is Updated ***********************
+15:47:03.908 [main] INFO  api.test.UserTests - *********************** Deleting User ***********************
+15:47:05.541 [main] INFO  api.test.UserTests - *********************** User is Deleted ***********************
+16:00:34.973 [main] INFO  api.test.UserTests - *********************** Creating User ***********************
+16:00:38.802 [main] INFO  api.test.UserTests - *********************** User is Created ***********************
+16:00:38.809 [main] INFO  api.test.UserTests - *********************** Getting User Informations ***********************
+16:00:40.467 [main] INFO  api.test.UserTests - *********************** User Informations is Retreived ***********************
+16:00:40.471 [main] INFO  api.test.UserTests - *********************** Updating User ***********************
+16:00:43.843 [main] INFO  api.test.UserTests - *********************** User is Updated ***********************
+16:00:43.845 [main] INFO  api.test.UserTests - *********************** Deleting User ***********************
+16:00:45.481 [main] INFO  api.test.UserTests - *********************** User is Deleted ***********************
